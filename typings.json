@@ -1,0 +1,9 @@
+{
+  "dependencies": {},
+  "devDependencies": {},
+  "ambientDependencies": {
+    "angular2-meteor": "https://raw.githubusercontent.com/Urigo/angular2-meteor/master/typings/angular2-meteor.d.ts",
+    "immutable": "https://raw.githubusercontent.com/facebook/immutable-js/master/dist/immutable.d.ts",
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#4ad9bef6cc075c904e034e73e1c993b9ad1ba81b"
+  }
+}
