@@ -1,13 +1,12 @@
 declare interface IProject  {
     _id?: any;
-    listName?: string;
     text?: string;
     completed?: boolean;
     private?: boolean;
     numberOfTodos?: number;
     numberOfTodosCompleted?: number;
     createdBy?: string;
-    createdAt?: string;
+    createdAt?: Date;
     lastEditDate?: Date;
     owner?: string;
 }

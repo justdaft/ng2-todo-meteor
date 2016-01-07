@@ -6,6 +6,4 @@ declare interface ITodo {
   private?: boolean;
   username?: string;
   owner?: string;
-  todoName?: string;
-  todoQty?: number;
 }

@@ -1,0 +1,18 @@
+
+<section class="projectapp">
+  <header class="header">
+    <h1>projects</h1>
+    <input class="new-project" placeholder="Create a project" autofocus
+        [(ngModel)]="newProject" (keyup.enter)="addProject(newProject)">
+    <!--<button class="add" (click)="addProject(newProject)">Add</button>-->
+  </header>
+  <section class="main">
+    <ul class="project-list">
+      <project-item *ngFor="#project of projects"
+        [project]="project"
+        (delete)="deleteProject($event)"
+        (projectUpdated)="projectUpdated($event)">
+      </project-item>
+    </ul>
+  </section>
+</section>
